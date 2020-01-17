@@ -42,7 +42,7 @@ public class SaveEditedStudent extends HttpServlet{
 	        if(status>0){  
 	            response.sendRedirect("viewStudents");  
 	        }else{  
-	            out.println("Sorry! unable to update record");  
+	            out.println("Sorry! unable to update record!!");  
 	        }  
 	          
 	        out.close();  
